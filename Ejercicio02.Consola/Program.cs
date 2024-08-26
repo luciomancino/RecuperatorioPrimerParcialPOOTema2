@@ -6,16 +6,16 @@ namespace Ejercicio02.Consola
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese un ISBN para validar:");
+            Console.WriteLine("Ingrese un ISBN para validar: ");
             string isbn = Console.ReadLine();
 
             if (ValidadorISBN.Validar(isbn))
             {
-                Console.WriteLine("El ISBN es válido.");
+                Console.WriteLine("El ISBN es válido!");
             }
             else
             {
-                Console.WriteLine("El ISBN no es válido.");
+                Console.WriteLine("El ISBN no es válido!");
             }
         }
     }

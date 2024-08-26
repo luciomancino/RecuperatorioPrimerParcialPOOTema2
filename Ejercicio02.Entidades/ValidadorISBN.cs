@@ -11,10 +11,10 @@ namespace Ejercicio02.Entidades
                 return false;
             }
 
-            // Limpiar el ISBN removiendo los guiones
+           
             string cleanIsbn = isbn.Replace("-", "");
 
-            // Verificar el formato y calcular el dígito verificador
+            
             if (EsISBN10(cleanIsbn))
             {
                 return VerificarISBN10(cleanIsbn);
